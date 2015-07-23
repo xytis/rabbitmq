@@ -22,6 +22,7 @@ if [ "$1" = 'rabbitmq-server' ]; then
 		default_vhost
 		default_user
 		default_pass
+		cluster_nodes
 	)
 
 	haveConfig=
